@@ -54,6 +54,13 @@ export const ServiceCardsData = [
     description: "Vulputate in donec ultricies venenatis erat, aliqua.",
     img:
       "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg"
+  },
+  {
+    id: 9,
+    title: "Advertising",
+    description: "Vulputate in donec ultricies venenatis erat, aliqua.",
+    img:
+      "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg"
   }
 ];
 export const SubscribersData = [

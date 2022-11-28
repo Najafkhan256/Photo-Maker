@@ -1,0 +1,19 @@
+.navbar_bg {
+  background-color: #ffffff !important;
+  border-bottom: 2px solid #0099e5;
+  .logo {
+    height: 50px;
+  }
+  .nav-link {
+    color: #000000;
+    font-size: 16px !important;
+    font-weight: 800;
+    margin-right: 10px;
+    text-transform: uppercase;
+    &:active,
+    &:focus,
+    &:hover {
+      color: #0099e5 !important;
+    }
+  }
+}

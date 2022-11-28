@@ -1,0 +1,14 @@
+:root {
+  --clr-primary: #0d6efd;
+  --clr-primary-hover: #0d6efd;
+  --transition: 0.5s ease;
+}
+
+.divider {
+  content: "";
+  background: var(--clr-primary);
+  border: 2px solid var(--clr-primary);
+  width: 70px;
+  margin: 0px auto 30px auto;
+  border-radius: 30px;
+}

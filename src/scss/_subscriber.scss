@@ -1,0 +1,60 @@
+.Subscriber_container {
+  margin: 50px auto;
+  .Subscriber_wrapper {
+    text-align: center;
+    .Subscriber_title {
+      h2 {
+        font-size: 2.5rem;
+        color: #000000;
+        font-weight: 700;
+      }
+    }
+    .testimonials {
+      text-align: center;
+      width: 100%;
+      padding: 40px 0px;
+      .slider-container {
+        position: relative;
+        overflow: hidden;
+        .slide-box {
+          width: 100%;
+          .comment {
+            background-color: #000;
+            color: #fff;
+            font-size: 1rem;
+            padding: 1.8rem 1.5rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.4px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            font-weight: 400;
+            &::before {
+              content: "";
+              position: absolute;
+              left: 50%;
+              bottom: -10px;
+              height: 20px;
+              width: 20px;
+              background-color: #000;
+              transform: translateX(-50%) rotate(45deg);
+              box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+            }
+          }
+          img {
+            max-width: 60px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+          }
+          .name {
+            font-size: 1.2rem;
+          }
+          .job {
+            font-size: 0.8rem;
+            color: #707178;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
